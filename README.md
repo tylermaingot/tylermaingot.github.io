@@ -1,2 +1,7 @@
 # tylermaingot.github.io
-2022 UVU CS 2550 Project Files Repository
+
+### You can find the source code for this website at https://github.com/tylermaingot/tylermaingot.github.io
+
+
+This repo is intended for a simple resume/display site, created by and for Tyler Maingot
+
