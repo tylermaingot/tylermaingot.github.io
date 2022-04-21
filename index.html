@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/styles/styles.css">
+    <script src="/scripts/onPageLoad.js"></script>
 
     <title>Tyler Maingot</title>
 
@@ -15,20 +16,28 @@
 
 <body>
 
-    <div id="headerBody">
+    <div id="header">
 
-        <div id="navigationBar">
-            <div id="navButtonAbout"        class="navButtons">ABOUT</div>
-            <div id="navButtonProjects"     class="navButtons">PROJECTS</div>
-            <div id="navButtonCaseStudies"  class="navButtons">CASE STUDIES</div>
-            <div id="navButtonContact"      class="navButtons">CONTACT</div>
-        </div>
+        <nav id="navigationBar">
+            <a id="navButtonAbout" class="navButtons" href="#aboutMe">ABOUT</a>
+            <a id="navButtonProjects" class="navButtons" href="#projects">PROJECTS</a>
+            <a id="navButtonContact" class="navButtons" href="#contact">CONTACT</a>
+        </nav>
 
         <div id="headerContent">
-
+            <img src="/images/Work Picture - square.jpg" id="headerPicture">
+            <h1 id="headerName">Tyler Maingot</h1>
         </div>
 
     </div>
+
+    <div id="about"></div>
+
+    <div id="projects"></div>
+
+    <div id="contact"></div>
+
+    <script>onPageLoad()</script>
 
 </body>
 

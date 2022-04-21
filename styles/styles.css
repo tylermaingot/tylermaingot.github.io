@@ -8,41 +8,47 @@
 body {
     background-color: var(--backgroundColor);
 
-    font-family: Raleway;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* max-width: 1080px; */
 }
 
 
-#headerBody {
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+#header {
     position: relative;
     width: 100%;
     height: 600px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #navigationBar {
-    position: absolute;
     height: 100px;
 
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .navButtons {
-    /* position: absolute; */
-    /* width: 63px; */
-    /* height: 21px; */
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
 
-    color: #000000;
-
+    text-decoration: none;
     white-space: nowrap;
+
     margin-left: 80px;
 }
 
@@ -52,10 +58,31 @@ body {
 }
 
 #headerContent {
-    position: absolute;
     height: 500px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+}
+
+#headerPicture {
+    border-radius: 50%;
+}
+
+#headerName {
+    font-weight: 700;
+    font-size: 72px;
+}
+
+
+
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+
+#about {
+
 }
