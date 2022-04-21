@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="/styles/styles.css">
     <script src="/scripts/onPageLoad.js"></script>
+    <script src="https://kit.fontawesome.com/a5a2ee561a.js" crossorigin="anonymous"></script>
 
     <title>Tyler Maingot</title>
 
@@ -16,7 +17,7 @@
 
 <body>
 
-    <div id="header">
+    <header id="header">
 
         <nav id="navigationBar">
             <a id="navButtonAbout" class="navButtons" href="#about">ABOUT ME</a>
@@ -30,9 +31,9 @@
             <h1 id="headerName">Tyler Maingot</h1>
         </div>
 
-    </div>
+    </header>
 
-    <div id="about" class="sectionContentPadding">
+    <section id="about" class="sectionContentPadding">
         <h1 id="aboutMeHeading" class="sectionHeading">About Me</h1>
 
         <ul id="aboutMeList">
@@ -43,9 +44,9 @@
             <li>My background is primarily in the Agile SCRUM methodology, but I am familiar with other Agile methodologies as well</li>
         </ul>
 
-    </div>
+    </section>
 
-    <div id="work" class="sectionContentPadding">
+    <section id="work" class="sectionContentPadding">
         <h1 id="workHeading" class="sectionHeading">Work History</h1>
 
         <h2>Modere - Product Owner - February 2020 to Present</h2>
@@ -65,18 +66,18 @@
         <h2>Modere - Elite Service Representative - May 2017 to January 2019</h2>
             <p>Worked with our largest distributors to provide direct care and attention. Became a subject matter expert on our compensation plan and acted as a resource for our support team.</p>
 
-    </div>
+    </section>
 
     
 
-    <div id="projects"></div>
+    <section id="projects" class="sectionContentPadding">
         <h1 id="projectsHeading" class="sectionHeading">Projects</h1>
 
         <div id="projectCardsSection">
             <div class="projectCard">
                 <img src="/images/Personal Site Thumbnail.jpg" alt="Personal Site Thumbnail Square" class="projectCardImage">
                 <h2 class="projectCardHeading">Alternate Personal Site</h2>
-                <p class="projectDescription">Prior to this project, I was working on a template driven personal website, which will be finished soon!</p>
+                <p class="projectDescription">I am also working on a template driven personal website, which will be finished soon! It uses Google Sites and many default elements, in order to understand best practices.</p>
                 <div class="projectLinkSection">
                     <a class="projectNavButtons" href="https://www.tylermaingot.com/" target="blank">Check It Out</a>
                 </div>
@@ -85,7 +86,7 @@
             <div class="projectCard">
                 <img src="/images/RPG Character Creator App Thumbnail.jpg" alt="RPG Character Creator App Thumbnail Square" class="projectCardImage">
                 <h2 class="projectCardHeading">RPG Character Creator App</h2>
-                <p class="projectDescription">A web app in which a list of characters for DnD or another RPG can be created and edited.</p>
+                <p class="projectDescription">A web app in which a list of characters for DnD or another RPG can be created and edited. It relies on HTML, CSS, and Javascript.</p>
                 <div class="projectLinkSection">
                     <a class="projectNavButtons" href="https://precious-stardust-24e856.netlify.app/" target="blank">Check It Out</a>
                 </div>
@@ -94,7 +95,7 @@
             <div class="projectCard">
                 <img src="/images/Temperature Converter App Thumbnail.jpg" alt="Temperature Converter App Thumbnail Square" class="projectCardImage">
                 <h2 class="projectCardHeading">Temperature Converter App</h2>
-                <p class="projectDescription">A web app in which the user can convert temperatures back and forth between Celsius and Fahrenheit!</p>
+                <p class="projectDescription">A web app in which the user can convert temperatures back and forth between Celsius and Fahrenheit! It relies on HTML, CSS, and Javascript.</p>
                 <div class="projectLinkSection">
                     <a class="projectNavButtons" href="https://bucolic-rugelach-3fcb12.netlify.app/" target="blank">Check It Out</a>
                 </div>
@@ -103,14 +104,27 @@
             <div class="projectCard">
                 <img src="/images/Trivia App Thumbnail.jpg" alt="Trivia App Thumbnail Square" class="projectCardImage">
                 <h2 class="projectCardHeading">Simple Trivia App</h2>
-                <p class="projectDescription">A web app in which the user can show and hide answers for trivia questions!</p>
+                <p class="projectDescription">A web app in which the user can show and hide answers for trivia questions! It relies on HTML, CSS, and Javascript.</p>
                 <div class="projectLinkSection">
                     <a class="projectNavButtons" href="https://nifty-bartik-43db55.netlify.app/" target="blank">Check It Out</a>
                 </div>
             </div>
         </div>
+    </section>
 
-    <div id="contact"></div>
+    <footer id="contact" class="sectionContentPadding">
+        <h1>Let's Connect!</h1>
+
+        <div id="contactIcons">
+            <i class="contactIcons fa-solid fa-envelope fa-5x"></i>
+            <i class="contactIcons fa-brands fa-github fa-5x"></i>
+            <i class="contactIcons fa-brands fa-linkedin fa-5x"></i>
+            <i class="contactIcons fa-brands fa-facebook fa-5x"></i>
+        </div>
+
+        <p>&copy;Tyler Maingot 2022</p>
+
+    </footer>
 
     <script>onPageLoad()</script>
 
