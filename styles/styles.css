@@ -1,5 +1,5 @@
 :root {
-    --backgroundColor: #E5E5E5;
+    --backgroundColor: #F4F3F1;
     --mainBodyColor: #F4F3F1;
 
 }
@@ -72,7 +72,7 @@ body {
 }
 
 #headerName {
-    font-size: 72px;
+    font-size: 100px;
 }
 
 
@@ -83,17 +83,25 @@ body {
 /* ABOUT */
 /* ABOUT */
 
-#about {
-    padding: 48px;
-
-}
-
-#aboutMeHeading {
+.sectionHeading {
     text-align: center;
     font-size: 72px;
 }
 
-#aboutMeList {
+.sectionContentPadding {
+    padding: 48px;
+}
+
+.sectionContentMargin {
     margin-left: 64px;
     margin-right: 64px;
 }
+
+
+
+
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
