@@ -12,7 +12,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Tyler Maingot</title>
 
@@ -22,7 +22,7 @@
 
     <header id="header">
 
-        <nav id="navigationBar">
+        <nav id="navigationBar" class="fixedNavBar">
             <a id="navButtonAbout" class="navButtons" href="#about">ABOUT ME</a>
             <a id="navButtonWorkHistory" class="navButtons" href="#work">WORK HISTORY</a>
             <a id="navButtonProjects" class="navButtons" href="#projects">PROJECTS</a>
@@ -40,11 +40,13 @@
         <h1 id="aboutMeHeading" class="sectionHeading">About Me</h1>
 
         <ul id="aboutMeList">
-            <li>Hi! My name is Tyler Maingot</li>
+            <li>Hi! My name is Tyler Maingot (pronounced like 'mango')</li>
             <li>I am a Product Manager/Owner and am currently finishing my degree in Computer Science with an emphasis on Full Stack Web Development</li>
             <li>I am set to graduate with a Bachelors degree in 2023 from UVU</li>
             <li>I have almost 3 years experience with Business Analysis and Product Ownership</li>
             <li>My background is primarily in the Agile SCRUM methodology, but I am familiar with other Agile methodologies as well</li>
+            <li>I geek out on all things sci-fi and am currently reading <a class="bookLink" href="https://www.arkadymartine.net/books/adcp" target="_blank">A Desolation Called Peace</a> by Arkady Martine</li>
+            <li>My life generally revolves around the needs of my dog, two cats, house, girlfriend, job, and education (though not necessarily in that order)</li>
         </ul>
 
     </section>
@@ -80,7 +82,7 @@
             <div class="projectCard">
                 <img src="/images/Personal Site Thumbnail.jpg" alt="Personal Site Thumbnail Square" class="projectCardImage">
                 <h2 class="projectCardHeading">Alternate Personal Site</h2>
-                <p class="projectDescription">I am also working on a template driven personal website, which will be finished soon! It uses Google Sites and many default elements, in order to understand best practices.</p>
+                <p class="projectDescription">I am also working on a template driven personal website in order to understand best practices! It uses Google Sites and many default elements.</p>
                 <div class="projectLinkSection">
                     <a class="projectNavButtons" href="https://www.tylermaingot.com/" target="blank">Check It Out</a>
                 </div>
@@ -127,9 +129,9 @@
 
         <p>&copy;Tyler Maingot 2022</p>
 
-    </footer>
+        <a id="navButtonBackToTop" class="navButtons" href="#header">Back to Top</a>
 
-    <script>onPageLoad()</script>
+    </footer>
 
 </body>
 

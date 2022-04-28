@@ -22,6 +22,11 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0px;
 
@@ -29,7 +34,9 @@ body {
     background-color: var(--primaryColor);
 
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-    font-family: sans-serif;
+
+    /* https://fonts.google.com/specimen/Bangers?category=Display#standard-styles */
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -63,6 +70,14 @@ body {
     flex-wrap: wrap;
 }
 
+.fixedNavBar {
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    background-color: var(--secondaryColor);
+}
+
 .navButtons {
     font-weight: 400;
     font-size: 18px;
@@ -71,7 +86,8 @@ body {
     text-decoration: none;
     white-space: nowrap;
 
-    margin-left: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .navButtons:hover {
@@ -89,10 +105,13 @@ body {
 }
 
 #headerPicture {
+    margin-top: 200px;
+    margin-left: 40px;
     border-radius: 50%;
 }
 
 #headerName {
+    margin-top: 200px;
     margin-left: 20px;
     font-size: 100px;
 }
@@ -117,6 +136,15 @@ body {
 .sectionContentMargin {
     margin-left: 64px;
     margin-right: 64px;
+}
+
+.bookLink {
+    color: var(--emphasizedTextColor);
+    font-style: italic;
+}
+
+#work {
+    background-color: var(--secondaryColor);
 }
 
 .workHistoryItemHeading {
@@ -227,4 +255,8 @@ body {
     margin-right: 10px;
     color: black;
     text-decoration: none;
+}
+
+#navButtonBackToTop {
+    margin-top: 20px;
 }
